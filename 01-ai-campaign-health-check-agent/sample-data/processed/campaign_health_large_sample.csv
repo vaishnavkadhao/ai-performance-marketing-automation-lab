@@ -1,0 +1,28 @@
+date,platform,campaign_id,campaign_name,ad_group_or_ad_set,ad_name,landing_page,spend,impressions,clicks,sessions,engaged_sessions,form_starts,form_submits,leads,qualified_leads,meeting_booked,deals_won,revenue,lead_quality
+2026-05-01,Google Ads,GADS003,GOOGLE_PMAX_Clinic_Leads_Nagpur,Performance Max Asset Group,PMax Clinic Lead Form,/clinic-leads,4800,42000,520,500,210,60,8,8,3,2,0,0,Poor
+2026-05-01,Google Ads,GADS001,GOOGLE_SEARCH_Dental_Emergency_Nagpur,Emergency Dentist Keywords,Search Ad Emergency Pain,/dental-emergency,4200,18000,720,690,455,70,18,18,10,6,2,24000,Good
+2026-05-01,Google Ads,GADS002,GOOGLE_SEARCH_Dental_Implants_Nagpur,Dental Implant Keywords,Search Ad Implant Cost,/dental-implants,5200,24000,360,340,105,42,6,6,2,1,0,0,Poor
+2026-05-01,Google Ads,GADS004,GOOGLE_SEARCH_Root_Canal_Nagpur,Root Canal Keywords,Search Ad Pain Relief,/root-canal,3100,14500,480,460,320,48,14,14,8,5,2,26000,Good
+2026-05-01,LinkedIn Ads,LI002,LINKEDIN_ABM_CTO_Target_Accounts,CTO Target Accounts,Thought Leadership Ad,/enterprise-demo,4200,9000,120,118,82,15,2,2,1,1,0,0,Average
+2026-05-01,LinkedIn Ads,LI001,LINKEDIN_LEAD_B2B_SaaS_Demo,IT Managers India,Document Ad SaaS ROI,/saas-demo,3000,12000,180,175,115,25,4,4,3,2,1,85000,Good
+2026-05-01,Meta Ads,META003,META_LEAD_Dental_Checkup_Nagpur,Local Adults 25-55,Static Creative Smile Checkup,/dental-checkup,2200,36000,295,285,130,35,10,10,5,3,1,10000,Average
+2026-05-01,Meta Ads,META001,META_LEAD_Parents_Tuition_Nagpur,Parents 25-45 Nagpur,Static Creative Trust,/tuition-classes,2600,52000,310,300,95,52,11,11,3,1,0,0,Poor
+2026-05-01,Meta Ads,META002,META_REMARKETING_Tuition_Warm_Audience,Website Visitors 30 Days,Remarketing Offer Static,/tuition-classes,1600,18000,260,250,150,42,13,13,8,4,1,12000,Good
+2026-05-02,Google Ads,GADS003,GOOGLE_PMAX_Clinic_Leads_Nagpur,Performance Max Asset Group,PMax Doctor Trust Creative,/clinic-leads,5000,45000,560,540,225,65,9,9,4,2,1,18000,Average
+2026-05-02,Google Ads,GADS001,GOOGLE_SEARCH_Dental_Emergency_Nagpur,Emergency Dentist Keywords,Search Ad Same Day Appointment,/dental-emergency,3900,17000,690,660,430,66,17,17,9,5,2,22000,Good
+2026-05-02,Google Ads,GADS002,GOOGLE_SEARCH_Dental_Implants_Nagpur,Dental Implant Keywords,Search Ad Implant Consultation,/dental-implants,5400,25000,390,365,115,44,7,7,3,2,1,45000,Average
+2026-05-02,Google Ads,GADS004,GOOGLE_SEARCH_Root_Canal_Nagpur,Root Canal Keywords,Search Ad Expert Dentist,/root-canal,3300,15200,500,480,335,50,15,15,9,5,2,28000,Good
+2026-05-02,LinkedIn Ads,LI002,LINKEDIN_ABM_CTO_Target_Accounts,CTO Target Accounts,Case Study Ad,/enterprise-demo,4300,9200,125,122,86,16,2,2,1,1,0,0,Average
+2026-05-02,LinkedIn Ads,LI001,LINKEDIN_LEAD_B2B_SaaS_Demo,IT Managers India,Single Image Demo CTA,/saas-demo,3100,12500,190,185,122,27,5,5,3,2,1,90000,Good
+2026-05-02,Meta Ads,META003,META_LEAD_Dental_Checkup_Nagpur,Local Adults 25-55,Video Creative Dentist Intro,/dental-checkup,2300,38000,305,295,135,36,10,10,5,3,1,11000,Average
+2026-05-02,Meta Ads,META001,META_LEAD_Parents_Tuition_Nagpur,Parents 25-45 Nagpur,Video Creative Results,/tuition-classes,2800,56000,335,325,98,55,11,11,4,1,0,0,Poor
+2026-05-02,Meta Ads,META002,META_REMARKETING_Tuition_Warm_Audience,Website Visitors 30 Days,Remarketing Parent Testimonial,/tuition-classes,1700,19000,275,265,158,44,14,14,9,5,1,14000,Good
+2026-05-03,Google Ads,GADS003,GOOGLE_PMAX_Clinic_Leads_Nagpur,Performance Max Asset Group,PMax Family Dental Creative,/clinic-leads,5100,47000,575,555,230,66,9,9,4,2,1,20000,Average
+2026-05-03,Google Ads,GADS001,GOOGLE_SEARCH_Dental_Emergency_Nagpur,Emergency Dentist Keywords,Search Ad Clinic Near Me,/dental-emergency,4100,17500,710,685,445,69,18,18,10,6,2,25000,Good
+2026-05-03,Google Ads,GADS002,GOOGLE_SEARCH_Dental_Implants_Nagpur,Dental Implant Keywords,Search Ad Smile Restoration,/dental-implants,5600,25500,405,380,118,45,7,7,3,2,1,48000,Average
+2026-05-03,Google Ads,GADS004,GOOGLE_SEARCH_Root_Canal_Nagpur,Root Canal Keywords,Search Ad Save Tooth,/root-canal,3250,14900,495,475,330,49,15,15,9,6,2,30000,Good
+2026-05-03,LinkedIn Ads,LI002,LINKEDIN_ABM_CTO_Target_Accounts,CTO Target Accounts,Demo Request Ad,/enterprise-demo,4400,9500,130,127,90,17,3,3,2,1,1,120000,Good
+2026-05-03,LinkedIn Ads,LI001,LINKEDIN_LEAD_B2B_SaaS_Demo,IT Managers India,Conversation Ad Demo,/saas-demo,3200,13000,195,190,125,28,5,5,4,3,1,95000,Good
+2026-05-03,Meta Ads,META003,META_LEAD_Dental_Checkup_Nagpur,Local Adults 25-55,Offer Creative Free Consultation,/dental-checkup,2500,41000,330,318,140,38,11,11,6,3,1,12000,Average
+2026-05-03,Meta Ads,META001,META_LEAD_Parents_Tuition_Nagpur,Parents 25-45 Nagpur,Carousel Creative Activities,/tuition-classes,3000,60000,355,345,102,58,12,12,4,2,0,0,Poor
+2026-05-03,Meta Ads,META002,META_REMARKETING_Tuition_Warm_Audience,Website Visitors 30 Days,Remarketing Limited Seats,/tuition-classes,1650,18500,270,260,154,43,14,14,9,5,1,15000,Good

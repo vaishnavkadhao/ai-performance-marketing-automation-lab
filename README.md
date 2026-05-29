@@ -5,46 +5,35 @@
 </p>
 
 <p align="center">
-  <img alt="Status" src="https://img.shields.io/badge/status-building%20in%20public-blue">
+  <img alt="Status" src="https://img.shields.io/badge/status-active-blue">
   <img alt="Focus" src="https://img.shields.io/badge/focus-performance%20marketing-orange">
   <img alt="Tracking" src="https://img.shields.io/badge/tracking-GTM%20%7C%20GA4-green">
-  <img alt="Automation" src="https://img.shields.io/badge/automation-AI%20agents-purple">
-  <img alt="Repo" src="https://img.shields.io/badge/portfolio-ready-black">
+  <img alt="Automation" src="https://img.shields.io/badge/automation-python%20%7C%20AI-purple">
+  <img alt="Repo" src="https://img.shields.io/badge/portfolio-case%20study-black">
 </p>
 
-## 🎯 Project Summary
+## 🎯 Project Overview
 
-A practical portfolio lab for building industry-ready skills in **performance marketing, campaign analytics, GTM/GA4 measurement planning, dashboard reporting, UTM automation, and AI-assisted optimization workflows**.
+A performance marketing automation case study focused on campaign health checks, KPI analysis, measurement planning, dashboard reporting, UTM governance, and human-approved optimization workflows.
 
-This repository simulates how performance marketing teams work in agencies, SaaS companies, and growth teams: campaign data is collected, cleaned, analyzed, converted into insights, and used to make controlled optimization decisions.
+The project demonstrates how paid media data can be converted into structured insights for budget control, campaign prioritization, reporting, and optimization decisions.
 
-> **Core idea:** Ads should not be optimized only by guesswork. They should be optimized using tracking, campaign KPIs, lead quality, dashboard reporting, and human-approved automation.
+> **Core idea:** Campaign optimization should be driven by clean tracking, meaningful KPIs, lead quality signals, and explainable recommendations.
 
 ---
 
-## 🧠 What This Lab Demonstrates
+## 🧠 Workflow
 
 ```mermaid
 flowchart LR
     A[Ad Platforms] --> B[Campaign Data]
     B --> C[KPI Calculator]
     C --> D[Rule-Based Health Check]
-    D --> E[AI-Assisted Recommendations]
-    E --> F[Human Approval]
-    F --> G[Manual or API Campaign Action]
+    D --> E[Recommendation Output]
+    E --> F[Human Review]
+    F --> G[Manual/API Optimization]
     G --> H[Dashboard + Report]
 ```
-
-This project follows a safe commercial workflow:
-
-1. Read campaign data.
-2. Calculate KPIs.
-3. Apply rule-based checks.
-4. Generate AI-assisted recommendations.
-5. Human reviews and approves.
-6. Campaign changes are applied manually first, then through API only after testing.
-
-The goal is **controlled, explainable, and human-approved optimization**, not uncontrolled AI changes to live campaigns.
 
 ---
 
@@ -52,11 +41,10 @@ The goal is **controlled, explainable, and human-approved optimization**, not un
 
 | Module | Purpose | Key Skills Demonstrated |
 |---|---|---|
-| [`01-ai-campaign-health-check-agent`](01-ai-campaign-health-check-agent/) | Analyze campaign performance and generate optimization recommendations | KPI analysis, rule-based logic, AI reporting, wasted-spend detection |
-| `02-gtm-ga4-measurement-dashboard-system` | Design a tracking and measurement system for ad campaigns | GTM, GA4 events, UTM strategy, conversion QA, dashboard planning |
+| [`01-ai-campaign-health-check-agent`](01-ai-campaign-health-check-agent/) | Analyze campaign data and generate optimization recommendations | KPI analysis, rule-based logic, reporting, wasted-spend detection |
+| `02-gtm-ga4-measurement-dashboard-system` | Design campaign measurement and dashboard structure | GTM, GA4 events, UTM strategy, conversion QA, dashboard planning |
 | `03-bulk-campaign-planner-utm-builder` | Prepare scalable campaign launch templates | Campaign naming, UTM builder, bulk planning, pre-launch QA |
-| [`docs`](docs/) | Shared documentation and SOPs | Process design, troubleshooting, professional documentation |
-| `sample-data` | Sample data for practice and demo reports | Google Ads, Meta Ads, GA4-style campaign data |
+| [`docs`](docs/) | Shared documentation and SOPs | Process design, troubleshooting, documentation |
 | [`assets`](assets/) | Screenshots, diagrams, and dashboard visuals | Portfolio presentation support |
 
 ---
@@ -67,14 +55,14 @@ The goal is **controlled, explainable, and human-approved optimization**, not un
 |---|---|
 | Performance Marketing | Google Ads, Meta Ads, LinkedIn Campaigns, Remarketing, A/B Testing, Campaign QA |
 | Tracking & Analytics | GTM, GA4, UTM Tracking, Enhanced Conversions concepts, Looker Studio |
-| Automation | Python, Pandas, Google Sheets, GitHub Actions, n8n/Make/Zapier workflow concepts |
-| AI Layer | AI-assisted campaign analysis, rule explanation, reporting summaries, recommendation logic |
+| Automation | Python, Pandas, Matplotlib, Google Sheets, GitHub Actions concepts |
+| AI-Assisted Workflow | Campaign analysis, rule explanation, reporting summaries, recommendation logic |
 | Data & Reporting | Excel, dashboard planning, KPI definitions, sample datasets, campaign reports |
-| Commercial Thinking | Lead quality, budget pacing, funnel diagnosis, landing page issue detection |
+| Marketing Operations | Lead quality, budget pacing, funnel diagnosis, landing page issue detection |
 
 ---
 
-## 📊 Sample Campaign Health Logic
+## 📊 Campaign Health Logic
 
 | Signal | Possible Issue | Recommended Action |
 |---|---|---|
@@ -87,60 +75,49 @@ The goal is **controlled, explainable, and human-approved optimization**, not un
 
 ---
 
-## 🏗️ Commercial Workflow Architecture
+## 🏗️ System Architecture
 
 ```mermaid
 flowchart TD
     A[Google Ads / Meta Ads / LinkedIn Ads] --> B[Landing Page]
     B --> C[GTM Events]
-    C --> D[GA4 + Ad Platform Conversions]
+    C --> D[GA4 + Ad Platform Conversion Data]
     D --> E[Campaign Dataset]
     E --> F[KPI Calculator]
     F --> G[Optimization Rule Engine]
-    G --> H[AI Summary Layer]
-    H --> I[Dashboard / Client Report]
-    I --> J[Human Approval]
-    J --> K[Campaign Optimization]
+    G --> H[Report + Visuals]
+    H --> I[Human Review]
+    I --> J[Campaign Optimization]
 ```
 
 ---
 
-## 📁 Current Project Status
+## 📁 Project Status
 
 | Area | Status |
 |---|---|
 | Repository setup | ✅ Done |
-| Attractive README structure | ✅ Done |
 | Dashboard preview visual | ✅ Done |
-| Project 1 folder | ✅ Done |
+| Campaign health check module | ✅ Done |
 | Sample campaign data | ✅ Done |
-| KPI definitions | ✅ Done |
-| Optimization rules | ✅ Done |
-| Real-world errors and fixes | ✅ Done |
-| Python KPI calculator | ⏳ Next |
-| Rule engine script | ⏳ Next |
-| Sample output report | ⏳ Next |
+| KPI calculator | ✅ Done |
+| Rule engine | ✅ Done |
+| Sample report output | ✅ Done |
+| Campaign charts | ✅ Done |
 | GTM/GA4 measurement module | ⏳ Upcoming |
 | UTM builder module | ⏳ Upcoming |
+| Streamlit dashboard | ⏳ Upcoming |
 
 ---
 
-## 🖼️ Visual Assets
+## 🖼️ Current Outputs
 
-Current visual asset:
+Project 1 generates:
 
-- [`assets/dashboard-preview.svg`](assets/dashboard-preview.svg)
-
-Planned visuals:
-
-- Workflow demo GIF
-- Streamlit dashboard screenshot
-- Looker Studio dashboard screenshot
-- GTM Preview Mode screenshot
-- GA4 DebugView screenshot
-- Campaign health report screenshot
-
-See [`docs/visual-assets-guide.md`](docs/visual-assets-guide.md) for how to add images, GIFs, screenshots, and diagrams safely.
+- [`campaign_kpis.csv`](01-ai-campaign-health-check-agent/outputs/campaign_kpis.csv)
+- [`campaign_recommendations.csv`](01-ai-campaign-health-check-agent/outputs/campaign_recommendations.csv)
+- [`sample-campaign-health-report.md`](01-ai-campaign-health-check-agent/outputs/sample-campaign-health-report.md)
+- Campaign visual charts in `outputs/visuals/`
 
 ---
 
@@ -161,9 +138,9 @@ This project is relevant for roles such as:
 
 ## 🔐 Security Note
 
-Do not upload credentials, access tokens, private account data, client data, or local environment files.
+This repository uses sample/demo data only.
 
-Never commit:
+Do not commit:
 
 - API keys
 - Google Ads tokens
@@ -173,26 +150,21 @@ Never commit:
 - Service account JSON files
 - Real client campaign data
 
-Use environment variables or repository secrets for sensitive values.
-
 ---
 
 ## 🧭 Roadmap
 
 ```mermaid
 flowchart LR
-    A[Phase 1: Campaign Health Check] --> B[Phase 2: KPI Calculator]
-    B --> C[Phase 3: Rule Engine]
-    C --> D[Phase 4: AI Summary]
-    D --> E[Phase 5: Streamlit Dashboard]
-    E --> F[Phase 6: GTM/GA4 Module]
-    F --> G[Phase 7: Bulk Campaign Planner]
+    A[Campaign Health Check] --> B[Visual Reports]
+    B --> C[Streamlit Dashboard]
+    C --> D[GTM/GA4 Measurement Module]
+    D --> E[Bulk Campaign Planner]
+    E --> F[API-Based Reporting]
 ```
 
 ---
 
 ## 📌 Portfolio Positioning
 
-This repository is being built as a practical learning and portfolio project to demonstrate:
-
-> **AI-assisted performance marketing automation using campaign analytics, conversion tracking logic, dashboard reporting, and safe optimization workflows.**
+> **AI-assisted performance marketing automation using campaign analytics, conversion tracking logic, visual reporting, and safe optimization workflows.**

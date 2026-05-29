@@ -136,7 +136,7 @@ def apply_rules(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def create_markdown_report(df: pd.DataFrame, recommendations_df: pd.DataFrame) -> str:
-    """Create a portfolio-friendly Markdown report."""
+    """Create a portfolio-friendly Markdown report using readable sections instead of one wide table."""
     total_spend = df["spend"].sum()
     total_impressions = df["impressions"].sum()
     total_clicks = df["clicks"].sum()
@@ -149,13 +149,24 @@ def create_markdown_report(df: pd.DataFrame, recommendations_df: pd.DataFrame) -
         "",
         "## Executive Summary",
         "",
-        f"- Total Spend: ₹{total_spend:,.2f}",
-        f"- Total Impressions: {total_impressions:,.0f}",
-        f"- Total Clicks: {total_clicks:,.0f}",
-        f"- Total Leads: {total_leads:,.0f}",
-        f"- Average CTR: {avg_ctr:.2f}%",
-        f"- Average CPL: ₹{avg_cpl:,.2f}",
-        f"- Total Recommendations Flagged: {len(recommendations_df)}",
+        "| Metric | Value |",
+        "|---|---:|",
+        f"| Total Spend | ₹{total_spend:,.2f} |",
+        f"| Total Impressions | {total_impressions:,.0f} |",
+        f"| Total Clicks | {total_clicks:,.0f} |",
+        f"| Total Leads | {total_leads:,.0f} |",
+        f"| Average CTR | {avg_ctr:.2f}% |",
+        f"| Average CPL | ₹{avg_cpl:,.2f} |",
+        f"| Recommendations Flagged | {len(recommendations_df)} |",
+        "",
+        "## Visual Outputs",
+        "",
+        "After running `python src/generate_visuals.py`, the following charts are created in `outputs/visuals/`:",
+        "",
+        "- `spend_by_platform.png`",
+        "- `leads_by_platform.png`",
+        "- `recommendations_by_issue.png`",
+        "- `cpl_by_campaign.png`",
         "",
         "## Recommendation Summary",
         "",
@@ -167,9 +178,40 @@ def create_markdown_report(df: pd.DataFrame, recommendations_df: pd.DataFrame) -
         summary = recommendations_df.groupby(["issue", "priority"]).size().reset_index(name="count")
         report.append(summary.to_markdown(index=False))
 
-        report.extend(["", "## Detailed Recommendations", ""])
-        detail_columns = ["platform", "campaign_name", "issue", "reason", "recommended_action", "priority"]
-        report.append(recommendations_df[detail_columns].to_markdown(index=False))
+        high_priority = recommendations_df[recommendations_df["priority"] == "High"]
+        report.extend(["", "## High Priority Issues", ""])
+        if high_priority.empty:
+            report.append("No high-priority issues were detected.")
+        else:
+            for _, rec in high_priority.head(10).iterrows():
+                report.extend(
+                    [
+                        f"### {rec['campaign_name']}",
+                        "",
+                        f"- **Platform:** {rec['platform']}",
+                        f"- **Issue:** {rec['issue']}",
+                        f"- **Reason:** {rec['reason']}",
+                        f"- **Recommended Action:** {rec['recommended_action']}",
+                        f"- **Human Approval Required:** {rec['human_approval_required']}",
+                        "",
+                    ]
+                )
+
+        report.extend(["", "## Campaign Recommendation Cards", ""])
+        for _, rec in recommendations_df.head(15).iterrows():
+            report.extend(
+                [
+                    f"### {rec['platform']} — {rec['campaign_name']}",
+                    "",
+                    f"**Issue:** {rec['issue']}  ",
+                    f"**Priority:** {rec['priority']}  ",
+                    f"**Reason:** {rec['reason']}  ",
+                    f"**Recommended Action:** {rec['recommended_action']}  ",
+                    "",
+                    "---",
+                    "",
+                ]
+            )
 
     report.extend(
         [
@@ -177,6 +219,8 @@ def create_markdown_report(df: pd.DataFrame, recommendations_df: pd.DataFrame) -
             "## Analyst Notes",
             "",
             "This report is generated using rule-based logic. In a real commercial workflow, these recommendations should be reviewed with additional context such as campaign objective, sales feedback, CRM lead status, attribution window, audience size, and historical benchmarks.",
+            "",
+            "The recommended actions are not automatic campaign changes. They are decision-support outputs for a marketer, analyst, or manager.",
             "",
             "## Safe Automation Reminder",
             "",

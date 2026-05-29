@@ -1,0 +1,11 @@
+date,platform,campaign_name,ad_group_or_ad_set,ad_name,spend,impressions,clicks,leads,sessions,engaged_sessions,form_starts,form_submits,lead_quality,landing_page
+2026-05-01,Google Ads,GOOGLE_SEARCH_Dental_Emergency_Nagpur,Emergency Dentist Keywords,Emergency Dentist RSA 01,4200,18000,720,18,690,455,70,18,Good,/dental-emergency
+2026-05-01,Google Ads,GOOGLE_SEARCH_Dental_Implants_Nagpur,Implant Keywords,Dental Implant RSA 01,3500,15000,300,3,285,120,20,3,Average,/dental-implants
+2026-05-01,Google Ads,GOOGLE_PMAX_Clinic_Leads_Nagpur,Asset Group 01,PMax Asset Mix 01,5000,55000,900,12,850,390,65,12,Average,/book-appointment
+2026-05-01,Meta Ads,META_LEAD_Parents_Tuition_Nagpur,Parents 25-45,Static Creative 01,2500,40000,280,5,250,90,25,5,Poor,/tuition-classes
+2026-05-01,Meta Ads,META_REMARKETING_Tuition_Warm_Audience,Website Visitors,Testimonial Creative 01,1500,12000,360,20,340,250,45,20,Good,/tuition-classes
+2026-05-01,LinkedIn Ads,LINKEDIN_LEAD_B2B_SaaS_Demo,Marketing Managers,Lead Gen Creative 01,6000,22000,220,6,200,130,18,6,Good,/b2b-demo
+2026-05-02,Google Ads,GOOGLE_SEARCH_Dental_Emergency_Nagpur,Emergency Dentist Keywords,Emergency Dentist RSA 01,3900,17000,680,20,650,470,75,20,Good,/dental-emergency
+2026-05-02,Google Ads,GOOGLE_SEARCH_Dental_Implants_Nagpur,Implant Keywords,Dental Implant RSA 01,3700,16000,280,2,265,105,18,2,Average,/dental-implants
+2026-05-02,Meta Ads,META_LEAD_Parents_Tuition_Nagpur,Parents 25-45,Static Creative 02,2800,45000,250,4,230,75,20,4,Poor,/tuition-classes
+2026-05-02,Meta Ads,META_REMARKETING_Tuition_Warm_Audience,Website Visitors,Testimonial Creative 02,1700,14000,410,22,390,280,50,22,Good,/tuition-classes

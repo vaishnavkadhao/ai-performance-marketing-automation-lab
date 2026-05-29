@@ -22,6 +22,19 @@ The project demonstrates how paid media data can be converted into structured in
 
 ---
 
+## 🖥️ Interactive Dashboard Preview
+
+<p align="center">
+  <img src="assets/streamlit-dashboard-preview.png" alt="Streamlit campaign health dashboard preview" width="100%">
+</p>
+
+<p align="center">
+  <img src="assets/streamlit-recommendation-summary.png" alt="Streamlit recommendation summary preview" width="48%">
+  <img src="assets/streamlit-generated-report-overview.png" alt="Streamlit generated report preview" width="48%">
+</p>
+
+---
+
 ## 🧠 Workflow
 
 ```mermaid
@@ -41,7 +54,7 @@ flowchart LR
 
 | Module | Purpose | Key Skills Demonstrated |
 |---|---|---|
-| [`01-ai-campaign-health-check-agent`](01-ai-campaign-health-check-agent/) | Analyze campaign data and generate optimization recommendations | KPI analysis, rule-based logic, reporting, wasted-spend detection |
+| [`01-ai-campaign-health-check-agent`](01-ai-campaign-health-check-agent/) | Analyze campaign data and generate optimization recommendations | KPI analysis, rule-based logic, reporting, visual dashboard, wasted-spend detection |
 | `02-gtm-ga4-measurement-dashboard-system` | Design campaign measurement and dashboard structure | GTM, GA4 events, UTM strategy, conversion QA, dashboard planning |
 | `03-bulk-campaign-planner-utm-builder` | Prepare scalable campaign launch templates | Campaign naming, UTM builder, bulk planning, pre-launch QA |
 | [`docs`](docs/) | Shared documentation and SOPs | Process design, troubleshooting, documentation |
@@ -55,7 +68,7 @@ flowchart LR
 |---|---|
 | Performance Marketing | Google Ads, Meta Ads, LinkedIn Campaigns, Remarketing, A/B Testing, Campaign QA |
 | Tracking & Analytics | GTM, GA4, UTM Tracking, Enhanced Conversions concepts, Looker Studio |
-| Automation | Python, Pandas, Matplotlib, Google Sheets, GitHub Actions concepts |
+| Automation | Python, Pandas, Matplotlib, Streamlit, Google Sheets, GitHub Actions concepts |
 | AI-Assisted Workflow | Campaign analysis, rule explanation, reporting summaries, recommendation logic |
 | Data & Reporting | Excel, dashboard planning, KPI definitions, sample datasets, campaign reports |
 | Marketing Operations | Lead quality, budget pacing, funnel diagnosis, landing page issue detection |
@@ -86,8 +99,9 @@ flowchart TD
     E --> F[KPI Calculator]
     F --> G[Optimization Rule Engine]
     G --> H[Report + Visuals]
-    H --> I[Human Review]
-    I --> J[Campaign Optimization]
+    H --> I[Streamlit Dashboard]
+    I --> J[Human Review]
+    J --> K[Campaign Optimization]
 ```
 
 ---
@@ -104,9 +118,9 @@ flowchart TD
 | Rule engine | ✅ Done |
 | Sample report output | ✅ Done |
 | Campaign charts | ✅ Done |
+| Streamlit dashboard | ✅ Done |
 | GTM/GA4 measurement module | ⏳ Upcoming |
 | UTM builder module | ⏳ Upcoming |
-| Streamlit dashboard | ⏳ Upcoming |
 
 ---
 
@@ -117,7 +131,21 @@ Project 1 generates:
 - [`campaign_kpis.csv`](01-ai-campaign-health-check-agent/outputs/campaign_kpis.csv)
 - [`campaign_recommendations.csv`](01-ai-campaign-health-check-agent/outputs/campaign_recommendations.csv)
 - [`sample-campaign-health-report.md`](01-ai-campaign-health-check-agent/outputs/sample-campaign-health-report.md)
-- Campaign visual charts in `outputs/visuals/`
+- Campaign visual charts in [`outputs/visuals`](01-ai-campaign-health-check-agent/outputs/visuals/)
+- Interactive dashboard through [`app.py`](01-ai-campaign-health-check-agent/app.py)
+
+---
+
+## ▶️ Run Project 1 Locally
+
+```bash
+cd 01-ai-campaign-health-check-agent
+python -m pip install -r requirements.txt
+python src/calculate_kpis.py
+python src/rule_engine.py
+python src/generate_visuals.py
+python -m streamlit run app.py
+```
 
 ---
 
@@ -167,4 +195,4 @@ flowchart LR
 
 ## 📌 Portfolio Positioning
 
-> **AI-assisted performance marketing automation using campaign analytics, conversion tracking logic, visual reporting, and safe optimization workflows.**
+> **AI-assisted performance marketing automation using campaign analytics, conversion tracking logic, visual reporting, dashboarding, and safe optimization workflows.**

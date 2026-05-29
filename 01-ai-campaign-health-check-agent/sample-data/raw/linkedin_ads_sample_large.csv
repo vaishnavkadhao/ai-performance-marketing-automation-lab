@@ -1,0 +1,7 @@
+date,platform,campaign_id,campaign_name,ad_group_or_ad_set,ad_name,spend,impressions,clicks
+2026-05-01,LinkedIn Ads,LI001,LINKEDIN_LEAD_B2B_SaaS_Demo,IT Managers India,Document Ad SaaS ROI,3000,12000,180
+2026-05-02,LinkedIn Ads,LI001,LINKEDIN_LEAD_B2B_SaaS_Demo,IT Managers India,Single Image Demo CTA,3100,12500,190
+2026-05-03,LinkedIn Ads,LI001,LINKEDIN_LEAD_B2B_SaaS_Demo,IT Managers India,Conversation Ad Demo,3200,13000,195
+2026-05-01,LinkedIn Ads,LI002,LINKEDIN_ABM_CTO_Target_Accounts,CTO Target Accounts,Thought Leadership Ad,4200,9000,120
+2026-05-02,LinkedIn Ads,LI002,LINKEDIN_ABM_CTO_Target_Accounts,CTO Target Accounts,Case Study Ad,4300,9200,125
+2026-05-03,LinkedIn Ads,LI002,LINKEDIN_ABM_CTO_Target_Accounts,CTO Target Accounts,Demo Request Ad,4400,9500,130

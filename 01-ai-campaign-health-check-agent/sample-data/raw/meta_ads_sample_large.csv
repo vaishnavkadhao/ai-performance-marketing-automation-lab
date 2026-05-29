@@ -1,0 +1,10 @@
+date,platform,campaign_id,campaign_name,ad_group_or_ad_set,ad_name,spend,impressions,clicks
+2026-05-01,Meta Ads,META001,META_LEAD_Parents_Tuition_Nagpur,Parents 25-45 Nagpur,Static Creative Trust,2600,52000,310
+2026-05-02,Meta Ads,META001,META_LEAD_Parents_Tuition_Nagpur,Parents 25-45 Nagpur,Video Creative Results,2800,56000,335
+2026-05-03,Meta Ads,META001,META_LEAD_Parents_Tuition_Nagpur,Parents 25-45 Nagpur,Carousel Creative Activities,3000,60000,355
+2026-05-01,Meta Ads,META002,META_REMARKETING_Tuition_Warm_Audience,Website Visitors 30 Days,Remarketing Offer Static,1600,18000,260
+2026-05-02,Meta Ads,META002,META_REMARKETING_Tuition_Warm_Audience,Website Visitors 30 Days,Remarketing Parent Testimonial,1700,19000,275
+2026-05-03,Meta Ads,META002,META_REMARKETING_Tuition_Warm_Audience,Website Visitors 30 Days,Remarketing Limited Seats,1650,18500,270
+2026-05-01,Meta Ads,META003,META_LEAD_Dental_Checkup_Nagpur,Local Adults 25-55,Static Creative Smile Checkup,2200,36000,295
+2026-05-02,Meta Ads,META003,META_LEAD_Dental_Checkup_Nagpur,Local Adults 25-55,Video Creative Dentist Intro,2300,38000,305
+2026-05-03,Meta Ads,META003,META_LEAD_Dental_Checkup_Nagpur,Local Adults 25-55,Offer Creative Free Consultation,2500,41000,330

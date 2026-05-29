@@ -1,0 +1,11 @@
+date,platform,campaign_name,ad_group_or_ad_set,ad_name,spend,impressions,clicks,leads,sessions,engaged_sessions,form_starts,form_submits,lead_quality,landing_page,ctr,cpc,cpm,cpl,conversion_rate,engagement_rate,form_completion_rate
+2026-05-01,Google Ads,GOOGLE_SEARCH_Dental_Emergency_Nagpur,Emergency Dentist Keywords,Emergency Dentist RSA 01,4200,18000,720,18,690,455,70,18,Good,/dental-emergency,4.0,5.83,233.33,233.33,2.5,65.94,25.71
+2026-05-01,Google Ads,GOOGLE_SEARCH_Dental_Implants_Nagpur,Implant Keywords,Dental Implant RSA 01,3500,15000,300,3,285,120,20,3,Average,/dental-implants,2.0,11.67,233.33,1166.67,1.0,42.11,15.0
+2026-05-01,Google Ads,GOOGLE_PMAX_Clinic_Leads_Nagpur,Asset Group 01,PMax Asset Mix 01,5000,55000,900,12,850,390,65,12,Average,/book-appointment,1.64,5.56,90.91,416.67,1.33,45.88,18.46
+2026-05-01,Meta Ads,META_LEAD_Parents_Tuition_Nagpur,Parents 25-45,Static Creative 01,2500,40000,280,5,250,90,25,5,Poor,/tuition-classes,0.7,8.93,62.5,500.0,1.79,36.0,20.0
+2026-05-01,Meta Ads,META_REMARKETING_Tuition_Warm_Audience,Website Visitors,Testimonial Creative 01,1500,12000,360,20,340,250,45,20,Good,/tuition-classes,3.0,4.17,125.0,75.0,5.56,73.53,44.44
+2026-05-01,LinkedIn Ads,LINKEDIN_LEAD_B2B_SaaS_Demo,Marketing Managers,Lead Gen Creative 01,6000,22000,220,6,200,130,18,6,Good,/b2b-demo,1.0,27.27,272.73,1000.0,2.73,65.0,33.33
+2026-05-02,Google Ads,GOOGLE_SEARCH_Dental_Emergency_Nagpur,Emergency Dentist Keywords,Emergency Dentist RSA 01,3900,17000,680,20,650,470,75,20,Good,/dental-emergency,4.0,5.74,229.41,195.0,2.94,72.31,26.67
+2026-05-02,Google Ads,GOOGLE_SEARCH_Dental_Implants_Nagpur,Implant Keywords,Dental Implant RSA 01,3700,16000,280,2,265,105,18,2,Average,/dental-implants,1.75,13.21,231.25,1850.0,0.71,39.62,11.11
+2026-05-02,Meta Ads,META_LEAD_Parents_Tuition_Nagpur,Parents 25-45,Static Creative 02,2800,45000,250,4,230,75,20,4,Poor,/tuition-classes,0.56,11.2,62.22,700.0,1.6,32.61,20.0
+2026-05-02,Meta Ads,META_REMARKETING_Tuition_Warm_Audience,Website Visitors,Testimonial Creative 02,1700,14000,410,22,390,280,50,22,Good,/tuition-classes,2.93,4.15,121.43,77.27,5.37,71.79,44.0

@@ -1,0 +1,13 @@
+date,platform,campaign_id,campaign_name,ad_group_or_ad_set,ad_name,spend,impressions,clicks
+2026-05-01,Google Ads,GADS001,GOOGLE_SEARCH_Dental_Emergency_Nagpur,Emergency Dentist Keywords,Search Ad Emergency Pain,4200,18000,720
+2026-05-02,Google Ads,GADS001,GOOGLE_SEARCH_Dental_Emergency_Nagpur,Emergency Dentist Keywords,Search Ad Same Day Appointment,3900,17000,690
+2026-05-03,Google Ads,GADS001,GOOGLE_SEARCH_Dental_Emergency_Nagpur,Emergency Dentist Keywords,Search Ad Clinic Near Me,4100,17500,710
+2026-05-01,Google Ads,GADS002,GOOGLE_SEARCH_Dental_Implants_Nagpur,Dental Implant Keywords,Search Ad Implant Cost,5200,24000,360
+2026-05-02,Google Ads,GADS002,GOOGLE_SEARCH_Dental_Implants_Nagpur,Dental Implant Keywords,Search Ad Implant Consultation,5400,25000,390
+2026-05-03,Google Ads,GADS002,GOOGLE_SEARCH_Dental_Implants_Nagpur,Dental Implant Keywords,Search Ad Smile Restoration,5600,25500,405
+2026-05-01,Google Ads,GADS003,GOOGLE_PMAX_Clinic_Leads_Nagpur,Performance Max Asset Group,PMax Clinic Lead Form,4800,42000,520
+2026-05-02,Google Ads,GADS003,GOOGLE_PMAX_Clinic_Leads_Nagpur,Performance Max Asset Group,PMax Doctor Trust Creative,5000,45000,560
+2026-05-03,Google Ads,GADS003,GOOGLE_PMAX_Clinic_Leads_Nagpur,Performance Max Asset Group,PMax Family Dental Creative,5100,47000,575
+2026-05-01,Google Ads,GADS004,GOOGLE_SEARCH_Root_Canal_Nagpur,Root Canal Keywords,Search Ad Pain Relief,3100,14500,480
+2026-05-02,Google Ads,GADS004,GOOGLE_SEARCH_Root_Canal_Nagpur,Root Canal Keywords,Search Ad Expert Dentist,3300,15200,500
+2026-05-03,Google Ads,GADS004,GOOGLE_SEARCH_Root_Canal_Nagpur,Root Canal Keywords,Search Ad Save Tooth,3250,14900,495

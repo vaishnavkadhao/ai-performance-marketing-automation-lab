@@ -12,6 +12,10 @@
   <img alt="Portfolio" src="https://img.shields.io/badge/portfolio-ready-black">
 </p>
 
+<p align="center">
+  <a href="https://ai-performance-marketing-automation-lab-zzvxdwladc8tnrfaytvtxy.streamlit.app/"><strong>🚀 Live Demo: AI Campaign Health Intelligence</strong></a>
+</p>
+
 ## 🎯 Project Overview
 
 A practical performance marketing automation portfolio lab focused on campaign health checks, multi-source data analysis, KPI reporting, dashboarding, GTM/GA4 measurement planning, UTM governance, and human-approved optimization workflows.
@@ -23,6 +27,8 @@ The repository demonstrates how paid media, analytics, and CRM-style lead qualit
 ---
 
 ## 🖥️ Project 1: AI Campaign Health Intelligence
+
+**Live app:** https://ai-performance-marketing-automation-lab-zzvxdwladc8tnrfaytvtxy.streamlit.app/
 
 A functional Streamlit dashboard that simulates how a performance marketing team reviews campaign performance across Google Ads, Meta Ads, LinkedIn Ads, GA4-style behavior data, and CRM lead-quality data.
 
@@ -139,6 +145,7 @@ flowchart TD
 | Rule engine | ✅ Done |
 | Plotly dashboard visuals | ✅ Done |
 | Streamlit public app | ✅ Done |
+| Live Streamlit deployment | ✅ Done |
 | Professional screenshots | ✅ Done |
 | GTM/GA4 measurement module | ⏳ Upcoming |
 | UTM builder module | ⏳ Upcoming |

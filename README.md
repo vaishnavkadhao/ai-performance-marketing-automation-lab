@@ -16,6 +16,10 @@
   <a href="https://ai-performance-marketing-automation-lab-zzvxdwladc8tnrfaytvtxy.streamlit.app/"><strong>🚀 Live Demo: AI Campaign Health Intelligence</strong></a>
 </p>
 
+## Live App Preview
+
+![Campaign Health Dashboard Demo](https://github.com/user-attachments/assets/5158815b-df79-4454-9604-8559e097627c)
+
 ## 🎯 Project Overview
 
 A practical performance marketing automation portfolio lab focused on campaign health checks, multi-source data analysis, KPI reporting, dashboarding, GTM/GA4 measurement planning, UTM governance, and human-approved optimization workflows.
